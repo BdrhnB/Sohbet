@@ -1,10 +1,3 @@
-import sys
-from PyQt5 import uic,QtWidgets
-from ui import WaterReminder
-import datetime
+import os
 
-if __name__ == '__main__':
-    app=QtWidgets.QApplication(sys.argv)
-    w = WaterReminder()
-    w.show()
-    sys.exit(app.exec_())
+print("merhaba")
